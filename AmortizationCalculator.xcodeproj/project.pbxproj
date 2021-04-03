@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6EEC8898261838E900AADFE8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EEC8897261838E900AADFE8 /* main.c */; };
+		6EEC88A5261839FC00AADFE8 /* Mortgage.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EEC88A4261839FC00AADFE8 /* Mortgage.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		6EEC8894261838E900AADFE8 /* AmortizationCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AmortizationCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEC8897261838E900AADFE8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6EEC88A4261839FC00AADFE8 /* Mortgage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Mortgage.c; sourceTree = "<group>"; };
+		6EEC88A826183A7500AADFE8 /* Mortgage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mortgage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				6EEC8897261838E900AADFE8 /* main.c */,
+				6EEC88A826183A7500AADFE8 /* Mortgage.h */,
+				6EEC88A4261839FC00AADFE8 /* Mortgage.c */,
 			);
 			path = AmortizationCalculator;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EEC8898261838E900AADFE8 /* main.c in Sources */,
+				6EEC88A5261839FC00AADFE8 /* Mortgage.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
